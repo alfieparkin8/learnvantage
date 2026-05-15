@@ -63,9 +63,7 @@ function Hero() {
               Secure the <em className="italic text-primary">Grade 9</em> your child deserves.
             </h1>
             <p className="mt-8 max-w-[52ch] text-lg leading-relaxed text-foreground/70 text-pretty">
-              Spanish GCSE success isn't about memorising vocab lists. It's a proven system that turns
-              exam anxiety into confidence — and predicted 5s into Grade 9s. Trusted by ambitious UK
-              parents preparing their children for top sixth forms.
+              Spanish GCSE success isn't about memorising vocab lists. Our proven system that turns students with exam anxiety and low grades into confident Grade 9 achievers. Trusted by UK parents preparing their children for top sixth forms.
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-5">
               <a href="#book"><CTAButton large>Book Your Free Strategy Call</CTAButton></a>
@@ -99,7 +97,7 @@ function Hero() {
               </div>
             </div>
             <div className="absolute -top-4 -left-4 z-20 rounded-2xl bg-foreground text-background p-4 shadow-xl rotate-[-4deg]">
-              <div className="font-display text-2xl font-medium">+3</div>
+              <div className="font-display text-2xl font-medium">3+</div>
               <div className="text-[10px] font-medium uppercase tracking-widest opacity-70">
                 Average grade jump
               </div>
@@ -190,7 +188,7 @@ function Method() {
     },
     {
       n: "02",
-      title: "The Oral Edge",
+      title: "Exam Success",
       text: "Specialist coaching for the speaking exam. High-scoring vocabulary strings, role-play hacks, and natural accent training.",
       dark: true,
     },
@@ -261,7 +259,7 @@ function Method() {
 function Results() {
   const stats = [
     { v: "98%", l: "Grade 8–9 rate" },
-    { v: "+3", l: "Avg. grade uplift" },
+    { v: "3+", l: "Avg. grade uplift" },
     { v: "140+", l: "Families served" },
     { v: "10yr", l: "Tutoring experience" },
   ];
@@ -356,7 +354,7 @@ function About() {
         <div>
           <p className="font-display italic text-primary text-lg mb-3">El profesor</p>
           <h2 className="font-display text-4xl md:text-5xl font-medium leading-[1.05] text-balance">
-            Hola, I'm Anthony.
+            Hola, I'm Rossana.
           </h2>
           <p className="mt-6 text-foreground/70 text-lg leading-relaxed text-pretty">
             I've spent the last decade obsessing over one question: what does it actually take to
@@ -366,7 +364,7 @@ function About() {
           <ul className="mt-8 grid sm:grid-cols-2 gap-x-6 gap-y-3 text-sm">
             {[
               "Oxford-educated linguist",
-              "Former AQA examiner",
+              "Masters Degree",
               "10+ years 1-to-1 tutoring",
               "DBS Enhanced",
               "Grade 9 across all 4 papers",
